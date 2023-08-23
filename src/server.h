@@ -6,3 +6,5 @@
 #include <netinet/in.h>
 
 void error(char msg[], int code);
+
+int rand_num(int max);

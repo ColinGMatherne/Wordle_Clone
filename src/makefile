@@ -12,7 +12,7 @@ HEADER1	= server.h
 OUT1	= ../bin/server
 
 CC	 = gcc
-FLAGS	 = -g -c -Wall
+FLAGS	 = -g -c -Wall -Wextra -Wpedantic
 LFLAGS	 = 
 
 all: ../bin/client ../bin/server

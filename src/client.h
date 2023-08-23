@@ -6,3 +6,7 @@
 #include <netinet/in.h>
 
 void error(char msg[], int code);
+
+void prompt();
+
+int check_guess(char guess[], char word[], int round);
