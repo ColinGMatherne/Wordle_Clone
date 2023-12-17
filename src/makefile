@@ -1,5 +1,5 @@
 OBJS	= client.o server.o
-OUT	= ../bin/client,../bin/server
+OUT	= ../bin/client ../bin/server
 
 OBJS0	= client.o
 SOURCE0	= client.c
